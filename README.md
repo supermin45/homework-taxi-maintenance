@@ -52,5 +52,48 @@
         4.目前运行公里数为整数，不带有除数字外的其他符号；
 
         5.有无大修的格式为‘T’ 或者 ‘F’ ，前者表示有大修，后者表示无大修。
+范例：
+
+        SubmitDate: 2030/09/01
+        CAR0001 | 2025/04/05 | Porsche | 10000 | F
+        CAR0002 | 2029/10/14 | Porsche | 9000 | F
+        CAR0003 | 2026/08/17 | Porsche | 13000 | F
+        CAR0004 | 2027/11/01 | BYD | 23000 | T
+        CAR0005 | 2027/01/11 | BYD | 19500 | F
+        CAR0006 | 2029/07/10 Audi | 10001 | T
+        CAR0007 | 2028/01/19 | Ford | 9800 | F
+        CAR0008 | 2027/07/10 | Ford | 15000 | T
+        CAR0009 | 2024/10/22 | Ford | 9800 | F
+
+## 程序输出
+
+对于前面的输入，相应的输出范例为：
+
+        Reminder
+        
+        ==================
+
+        *    Time-related maintenance coming soon...
+        Audi： 1 （CAR0006）
+        Porsche： 1 （CAR0002）
+
+        *    Distance-related maintenance coming soon...
+        BYD： 1 （CAR0005）
+        Ford： 1 （CAR0007）
+        Porsche： 1 （CAR0001）
+
+        *    Write-off coming soon...
+        BYD： 1 （CAR0004）
+        Ford： 1 （CAR0009）
+
+其中
+
+        1.Time-related maintenance指需要提醒定期保养的车辆
+
+        2.Distance-related maintenance指需要提醒每一万公里保养的车辆
+
+        3.Write-off指需要提醒报废的车辆
+
+        4.每一组中的车辆按照品牌升序排序（品牌第一个字母均为大写）
 
 
