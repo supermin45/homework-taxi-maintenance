@@ -73,16 +73,16 @@
         
         ==================
 
-        *    Time-related maintenance coming soon...
+        * Time-related maintenance coming soon...
         Audi： 1 （CAR0006）
         Porsche： 1 （CAR0002）
 
-        *    Distance-related maintenance coming soon...
+        * Distance-related maintenance coming soon...
         BYD： 1 （CAR0005）
         Ford： 1 （CAR0007）
         Porsche： 1 （CAR0001）
 
-        *    Write-off coming soon...
+        * Write-off coming soon...
         BYD： 1 （CAR0004）
         Ford： 1 （CAR0009）
 
